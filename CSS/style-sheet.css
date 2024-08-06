@@ -1,0 +1,544 @@
+* {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.title {
+    font-size: 80px;
+    font-weight: 900;
+    padding-top: 50px;
+    text-align: center;
+    font-family: ubuntu;
+    background: linear-gradient(270deg, #DA7C25 10%, #B923E1 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title hr {
+    width: 20%;
+    height: 3px;
+    margin-left: 40%;
+    margin-top: -10px;
+    text-align: center;
+    border: none;
+    background: linear-gradient(270deg, #DA7C25 10%, #B923E1 100%);
+}
+
+
+/*  ==============================================  Navigation Start  ==============================================  */
+
+.aside {
+    display: flex;
+    padding: 10px 50px;
+    background-color: black;
+}
+
+.logo a {
+    font-size: 50px;
+    font-family: ubuntu;
+    font-weight: 700;
+    background: linear-gradient(270deg, #DA7C25 10%, #B923E1 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aside .navi {
+    flex: 1;
+    text-align: right;
+    font-family: Helvetica;
+    font-size: 25px;
+}
+
+.aside .navi ul li {
+    display: inline-block;
+    padding: 10px 50px;
+    padding-right: 10px;
+    transition: 0.7s;
+}
+
+.navi li:hover {
+    transform: scale(1.2);
+}
+
+.aside .navi ul li a button {
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    font-size: 22px;
+    cursor: pointer;
+    border: 0;
+    transition: 0.7s;
+    color: white;
+}
+
+
+/*  ==============================================  Navigation End  ==============================================  */
+
+
+/*  ==============================================  Home Start  ==============================================  */
+
+.home {
+    background-color: #222222;
+}
+
+.home .text h2 {
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 125px;
+}
+
+.home h2 span {
+    font-size: 100px;
+    font-weight: bold;
+    background: linear-gradient(270deg, #DA7C25 10%, #B923E1 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home h4 {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: oldlace;
+    padding-top: 50px;
+    font-family: Monospace;
+}
+
+.home .home-action {
+    font-size: 90px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.home-action .home-resume {
+    padding: 20px 75px;
+    border-radius: 50px;
+    border: 2px solid black;
+    font-size: 22px;
+    cursor: pointer;
+    color: black;
+    transition: 0.7s;
+}
+
+.home-action .home-resume:hover {
+    transform: scale(1.1);
+    border-color: #B415FF;
+}
+
+.home-action .button {
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    font-size: 22px;
+    cursor: pointer;
+    border: 0;
+    transition: 0.7s;
+    color: white;
+    margin-right: 35px;
+}
+
+.home-action .button:hover {
+    transform: scale(1.2);
+}
+
+.home .links {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+img {
+    max-height: 50px;
+    max-width: 50px;
+    margin: 10px 50px;
+}
+
+
+/*  ==============================================  Home End  ==============================================  */
+
+
+/*  ==============================================  About Start  ==============================================  */
+
+.about {
+    background-color: #222222;
+    padding-bottom: 50px;
+}
+
+.about .about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about .left {
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 70px;
+    text-align: justify;
+}
+
+.about .left hr {
+    height: 25px;
+    border: none;
+}
+
+.about .right {
+    font-size: 10px;
+}
+
+.about .about-content .skills {
+    margin-top: 80px;
+    margin-right: 10px;
+}
+
+.about .about-content .skills .skill-item:hover {
+    transition: 0.7s;
+    transform: scale(1.1);
+}
+
+.about .about-content .skills .skill-item h5 {
+    line-height: 40px;
+    font-size: 16px;
+    color: cornsilk;
+}
+
+.about .about-content .skills .skill-item .progress {
+    background-color: #f2f2fc;
+    height: 7px;
+    border-radius: 4px;
+    width: 90%;
+    position: relative;
+}
+
+.about .about-content .skills .skill-item {
+    margin-bottom: 25px;
+}
+
+.about .about-content .skills .skill-item .progress .progress-in {
+    height: 100%;
+    border-radius: 4px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+}
+
+.about .about-content .skills .skill-item .skill-percent {
+    position: absolute;
+    right: 0;
+    color: cornsilk;
+    top: -40px;
+    line-height: 40px;
+}
+
+
+/*  ==============================================  About End  ==============================================  */
+
+
+/*  ==============================================  Service Start  ==============================================  */
+
+.service {
+    background-color: #222222;
+}
+
+.service .service-content {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.service .service-content .services {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 40px 40px;
+    text-align: justify;
+    transition: 0.7s;
+}
+
+.service .service-content .services:hover {
+    transform: scale(1.1);
+    border: 2px solid #ff00ff;
+}
+
+.service .service-content .services:hover {
+    transform: scale(1.1);
+}
+
+.service .service-content .services h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.service .service-content .services h2 {
+    font-size: 35px;
+    background: linear-gradient(270deg, #DA7C25 10%, #B923E1 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+
+.service .service-content .services h6 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.service .service-content .services button {
+    border-radius: 50px;
+    display: flex;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    font-size: 22px;
+    cursor: pointer;
+    border: 0;
+    transition: 0.7s;
+    color: white;
+}
+
+.service .service-content .services button:hover {
+    transform: scale(1.1);
+}
+
+.service .service-content .services button img {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.service .service-content .services button h6 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+/*  ==============================================  Service End  ==============================================  */
+
+
+/*  ==============================================  Project Start  ==============================================  */
+
+.project {
+    background-color: #222222;
+}
+
+.project .project-content {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project .project-content .projects {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 40px 40px;
+    text-align: justify;
+    transition: 0.7s;
+}
+
+.project .project-content .projects:hover {
+    transform: scale(1.1);
+    border: 2px solid #ff00ff;
+}
+
+.project .project-content .projects h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.project .project-content .projects h2 {
+    font-size: 35px;
+    background: linear-gradient(270deg, #DA7C25 10%, #B923E1 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+
+.project .project-content .projects button {
+    border-radius: 50px;
+    display: flex;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    font-size: 22px;
+    cursor: pointer;
+    border: 0;
+    transition: 0.7s;
+    color: white;
+}
+
+.project .project-content .projects button:hover {
+    transform: scale(1.2);
+}
+
+.project .project-content .projects h6 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.project .project-content .projects button img {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+
+/*  ==============================================  Project End  ==============================================  */
+
+
+/*  ==============================================  Contact Start  ==============================================  */
+
+.contact {
+    background-color: #222222;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact .contact-content .left {
+    font-size: 40px;
+    margin-left: 50px;
+    margin-right: 120px;
+}
+
+.contact .contact-content .left h1 {
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.contact .contact-content .left h6 {
+    text-align: justify;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.contact .contact-content .left hr {
+    height: 50px;
+    border: none;
+}
+
+.contact .contact-content .left .links a {
+    font-size: 10px;
+    display: flex;
+    width: 70%;
+}
+
+.contact .contact-content .left .links h6 {
+    font-size: 20px;
+}
+
+.contact .contact-content .left .links .location {
+    margin-left: 15px;
+}
+
+.contact .contact-content .right {
+    display: block;
+}
+
+.contact .contact-content .right h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contact .contact-content .right label {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.contact .contact-content .right input,
+.contact .contact-content .right textarea {
+    width: 90%;
+    padding: 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    color: #222222;
+}
+
+.contact .contact-content .right button {
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    font-size: 22px;
+    cursor: pointer;
+    border: 0;
+    transition: 0.7s;
+    color: white;
+    margin-right: 35px;
+}
+
+.contact .contact-content .right button:hover {
+    transform: scale(1.2);
+}
+
+
+/*  ==============================================  Contact End  ==============================================  */
+
+
+/*  ==============================================  Footer Start  ==============================================  */
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    margin: 10px;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.footer-section p,
+.footer-section a {
+    color: #fff;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 3px solid white;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.footer-section img {
+    height: 20px;
+}
+
+
+/*  ==============================================  Footer End  ==============================================  */
